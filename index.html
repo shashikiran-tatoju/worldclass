@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <!-- reset css -->
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <!-- styles -->
+        <link rel="stylesheet" href="./assets/css/index.css">  
+
+        <title>World Class</title>
+    </head>
+    <body>
+        <div class="worldClass__header bgColor--gray">
+            <a class="WorldClass__logo" href="#logo" title="Logo">Logo</a>
+            <a class="worldClass__hamburger1" href="#hamburger" onclick="menu1()" title="Navigation List" id="hamburgerImage1">hamburger</a>
+            <a class="worldClass__hamburger2" href="#hamburger" onclick="menu2()" title="Navigation List" id="hamburgerImage2">hamburger</a>
+            <ul class="worldClass__headerUL" id="headerNavbar">
+                <li class="worldClass__headerLI">
+                    <a class="WorldClass__headerLinks" href="#sxsw" title="sxsw">sxsw</a>        
+                </li>
+                <li class="worldClass__headerLI">
+                    <a class="WorldClass__headerLinks" href="#WHY ATTEND" title="why attend">why attend</a>        
+                </li>
+                <li class="worldClass__headerLI">
+                    <a class="WorldClass__headerLinks" href="#WHY US" title="why us">why us</a>                    
+                </li>
+                <li class="worldClass__headerLI">
+                    <a class="WorldClass__headerLinks" href="#PAST TENANTS" title="past tenants">past tenants</a>                    
+                </li>
+                <li class="worldClass__headerLI">
+                    <a class="WorldClass__headerLinks" href="#OUR PROPERTIES" title="our properties">our properties</a>            
+                </li>
+                <li class="worldClass__headerLI">
+                    <a class="WorldClass__headerLinks" href="#CONTACT US" title="contact us">contact us</a>            
+                </li>
+            </ul>    
+        </div>
+        <div class="wroldClass__banner">
+            <div class="worldClass__bannerTextDiv">
+                <p class="worldClass__worldText color--white">World Class presents the best real estate offerings for the SXSW Festival</p>
+                <p class="worldClass__bannerDate color--white">March 8 - 17, 2019</p>
+                <button class="worldClass__yellowButton color--black">View our properties</button>
+            </div>
+        </div>
+        <div class="wroldClass__sxsw bgColor--white">
+            <h1 class="worldClassSxsw__heading color--black">About SXSW</h1>
+            <p class="worldClassSxsw__southText color--black">South By Southwest dedicates itself to helping creative people achieve their goals. Founded in 1987 in Austin, Texas, SXSW is best known for its conference and festivals that celebrate the convergence of the interactive, flim, and music industries. An essential desination for global professionals, the event features sessions, showcases, screenings, exhibitions, and a variety of networking opportunities.</p>
+            <ul class="worldClassSxsw__UL">
+                <li class="worldClassSxsw__LI color--white mrg--lft0px">
+                    <p class="worldClassSxsw__liValue">432,500</p>
+                    <p class="worldClassSxsw__liText">participants</p>
+                </li>
+                <li class="worldClassSxsw__LI color--white">
+                    <p class="worldClassSxsw__liValue">100</p>
+                    <p class="worldClassSxsw__liText">countries represented in 2018</p>
+                </li>
+                <li class="worldClassSxsw__LI color--white">
+                    <p class="worldClassSxsw__liValue">10</p>
+                    <p class="worldClassSxsw__liText">day event span </p>
+                </li>
+                <li class="worldClassSxsw__LI color--white">
+                    <p class="worldClassSxsw__liValue">5</p>
+                    <p class="worldClassSxsw__liText">days for interactive </p>
+                </li>
+                <li class="worldClassSxsw__LI color--white">
+                    <p class="worldClassSxsw__liValue">5</p>
+                    <p class="worldClassSxsw__liText">days for music</p>
+                </li>
+                <li class="worldClassSxsw__LI color--white">
+                    <p class="worldClassSxsw__liValue">5</p>
+                    <p class="worldClassSxsw__liText">days for film</p>
+                </li>
+            </ul>
+        </div>
+        <div class="worldClass__BUSGoals bgColor--gray">
+            <h1 class=" worldClassBUSGoals__heading color--black">Business goals for attending SXSW</h1>
+            <ul class="worldClassBUSGoals__UL"> 
+                <li class="worldClassBUSGoals__Li pdg--lft0px">
+                    <img class="worldClassBUSGoals__images" src="./assets/images/findNewBusinessOpp.png" alt="World Class Business image" />
+                    <p class="worldClassBUSGoals__text">Find New Business Opportunities</p>
+                    <p class="worldClassBUSGoals__liValue">64%</p>
+                </li>
+                <li class="worldClassBUSGoals__Li">
+                    <img class="worldClassBUSGoals__images" src="./assets/images/connectWithExistingCli.png" alt="World Class Business image" />
+                    <p class="worldClassBUSGoals__text">Connect with Existing Clients</p>
+                    <p class="worldClassBUSGoals__liValue">46%</p>
+                </li>
+                <li class="worldClassBUSGoals__Li">
+                    <img class="worldClassBUSGoals__images" src="./assets/images/seekEmploymentContract.png" alt="World Class Business image" />
+                    <p class="worldClassBUSGoals__text">Seek Employment/ Contract Work</p>
+                    <p class="worldClassBUSGoals__liValue">16%</p>
+                </li>
+                <li class="worldClassBUSGoals__Li">
+                    <img class="worldClassBUSGoals__images" src="./assets/images/seekInvestors.png" alt="World Class Business image" />
+                    <p class="worldClassBUSGoals__text">Seek Investors</p>
+                    <p class="worldClassBUSGoals__liValue">12%</p>
+                </li>
+                <li class="worldClassBUSGoals__Li">
+                    <img class="worldClassBUSGoals__images" src="./assets/images/hireTalentedPeople.png" alt="World Class Business image" />
+                    <p class="worldClassBUSGoals__text">Hire Talented People</p>
+                    <p class="worldClassBUSGoals__liValue">10%</p>
+                </li>
+                <li class="worldClassBUSGoals__Li">
+                    <img class="worldClassBUSGoals__images" src="./assets/images/launchNewProd.png" alt="World Class Business image" />
+                    <p class="worldClassBUSGoals__text">Launch a New Product or Service</p>
+                    <p class="worldClassBUSGoals__liValue">10%</p>
+                </li>
+                <li class="worldClassBUSGoals__Li">
+                    <img class="worldClassBUSGoals__images" src="./assets/images/investNewCompanies.png" alt="World Class Business image" />
+                    <p class="worldClassBUSGoals__text">Invest in New Companies</p>
+                    <p class="worldClassBUSGoals__liValue">5%</p>
+                </li>     
+            </ul> 
+            <ul class="worldClassBUSGoals__buttonsUL">
+                <li class="worldClassBUSGoals__buttonsLi">
+                    <button class="worldClassBUSGoals__grayButton color--white bgColor--black" >SXSW website</button>  
+                </li>
+                <li class="worldClassBUSGoals__buttonsLi">
+                    <button class="worldClassBUSGoals__yellowButton color--black">View our properties</button>  
+                </li>
+            </ul>
+        </div>
+        <div class="worldClass__whyUs bgColor--white">
+            <h1 class=" worldClassWhyUs__heading color--black">Why Us</h1>   
+            <p class="worldClassWhyUs__Text color--black">World Class Property Company is the largest private commercial real owner in Austin, Texas. We own the premier event venue, retail, office, and parking properties in downtown, east Austin, and along South Congress. We have done over 100 events and pop-up activations for large corporations and global brands in Austin. Texas.</p>         
+            <ul class="worldClassWhyUs__UL">
+                <li class="worldClassWhyUs__LI color--white">
+                    <p class="worldClassWhyUs__avlImages">ava image</p>
+                    <p class="worldClassWhyUs__liValues">15</p>
+                    <p class="worldClassWhyUs__liText">Available Properties in Austin's Greater CBD</p>
+                </li>
+                <li class="worldClassWhyUs__LI color--white">
+                    <p class="worldClassWhyUs__rentImages">rental image</p>                    
+                    <p class="worldClassWhyUs__liValues">250,000+</p>
+                    <p class="worldClassWhyUs__liText">Rentable square feet</p>
+                </li>
+            </ul>
+        </div>
+        <div class="worldClass__pastTenants bgColor--gray">
+            <h1 class=" worldClassPastTenants__heading color--black">Past Tenants</h1> 
+            <div class="worldClassPastTenants__imageDiv">
+                <ul class="worldClassPastTenants__leftUL float--left mrg--lft25px">
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--30px" src="./assets/images/samsung.png" />
+                    </li>
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--20px" src="./assets/images/sony.png" />
+                    </li>
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--20px" src="./assets/images/appleMusic.png" />
+                    </li>
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--20px" src="./assets/images/myspace.png" />
+                    </li> 
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--50px" src="./assets/images/thePatron.png" />
+                    </li>
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--50px" src="./assets/images/marlboro.png" />
+                    </li>
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--50px" src="./assets/images/brownDistributing.png" />
+                    </li>
+                    <li class="worldClassPastTenants__leftLi">
+                        <img class="worldClassPastTenants__leftImages hgt--50px" src="./assets/images/universityTexas.png" />
+                    </li>   
+                </ul> 
+                <ul class="worldClassPastTenants__rightUL float--right mrg--rgt25px">
+                    <li class="worldClassPastTenants__rightLi mrg--lft0px">
+                        <img class="worldClassPastTenants__rightImages" src="./assets/images/spareFoot.png" />
+                    </li>
+                    <li class="worldClassPastTenants__rightLi">
+                        <img class="worldClassPastTenants__rightImages" src="./assets/images/heineken.png" />
+                    </li>
+                    <li class="worldClassPastTenants__rightLi mrg--lft0px">
+                        <img class="worldClassPastTenants__rightImage2" src="./assets/images/vice-logo-bw.png" />
+                    </li>
+                    <li class="worldClassPastTenants__rightLi">
+                        <img class="worldClassPastTenants__rightImage2" src="./assets/images/beats-text-logo-bw.png" />
+                    </li>
+                </ul> 
+            </div>
+        </div>
+        <div class="worldClass__ourProperties bgColor--white">
+            <div class="data--table">
+                <h1 class="worldClassOurProperties__heading color--black">Our Properties in Downtown Austin</h1>   
+                <p class="worldClassOurProperties__Text color--black">Please Contact us for Properties Brochure,Floorplans and Availability</p>
+            </div>
+            <button class="worldClassOurProperties__button color--black" >View Brochure</button>  
+            <ul class="worldClassOurProperties__UL" id="webViewShow">
+                <li class="worldClassOurProperties__LI color--white mrg--lft0px opacity--1px" onclick="showWest6th()" title="West6thDistrict" id="West6th">
+                    <p class="worldClassOurProperties__images bg--image1">OurProperties images</p>
+                    <p class="worldClassOurProperties__liText">west 6th district</p>
+                </li> 
+                <li class="worldClassOurProperties__LI color--white" onclick="showCongressAvenue()" title="CongressAvenueDistrict" id="CongressAvenue">
+                    <p class="worldClassOurProperties__images bg--image2">OurProperties images</p>
+                    <p class="worldClassOurProperties__liText">congress avenue district</p>
+                </li> 
+                <li class="worldClassOurProperties__LI color--white" onclick="showEntertainment()" title="EntertainmentDistrict" id="Entertainment">
+                    <p class="worldClassOurProperties__images bg--image3">OurProperties images</p>
+                    <p class="worldClassOurProperties__liText">entertainment district</p>
+                </li> 
+                <li class="worldClassOurProperties__LI color--white" onclick="showRedRiverMusic()" title="RedRiverMusicDistrict" id="RedRiverMusic">
+                    <p class="worldClassOurProperties__images bg--image4">OurProperties images</p>
+                    <p class="worldClassOurProperties__liText">red river music district</p>
+                </li> 
+                <li class="worldClassOurProperties__LI color--white" onclick="showConvention()" title="ConventionDistrict" id="Convention">
+                    <p class="worldClassOurProperties__images bg--image5">OurProperties images</p>
+                    <p class="worldClassOurProperties__liText">convention district </p>
+                </li> 
+                <li class="worldClassOurProperties__LI color--white" onclick="showEastAustin()" title="EastAustinDistrict" id="EastAustin">
+                    <p class="worldClassOurProperties__images bg--image6">OurProperties images</p>
+                    <p class="worldClassOurProperties__liText">east austin district</p>
+                </li>  
+            </ul>  
+            <div class="mobileViewWorldClassOurProperties">           
+                <div class="worldClassOurProperties" id="MobShowWest6th">
+                    <a href="#MobShowWest6th" class="welcome1" onclick="MobShowWest6th()">west 6th district</a>
+                    <span class="worldClassOurProperties__upBgImage" id="west6thUpArrow">up arrow</span>
+                    <span class="worldClassOurProperties__downBgImage" id="west6thDownArrow">down arrow</span>
+                </div>
+                <div class="worldClass__west6th" id="MobWest6thDistrict">
+                    <!-- <h1 class="worldClassWest6th__heading color--black">west 6th district</h1>  -->
+                    <ul class="worldClassWest6th__4thUL">
+                        <li class="worldClassWest6th__4thLI">
+                            <img class="worldClassWest6th__4thImage" src="./assets/images/4th&Rio.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                            <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                            <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                            <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                            <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                            <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                            <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                   
+                        </li>
+                    </ul>  
+                    <ul class="worldClassWest6th__6thUL">
+                        <li class="worldClassWest6th__6thLI">
+                            <img class="worldClassWest6th__6thImage" src="./assets/images/6th&Rio.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                            <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                            <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                            <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                            <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                  
+                        </li>
+                    </ul>
+                </div> 
+                <div class="worldClassOurProperties" id="MobShowCongressAvenue">
+                    <a href="#MobShowCongressAvenue" class="welcome1 pdg--lftrgt28px" onclick="MobShowCongressAvenue()">congress avenue district</a>
+                    <span class="worldClassOurProperties__upBgImage mrg--tpmin15px" id="congUpArrow">up arrow</span>
+                    <span class="worldClassOurProperties__downBgImage mrg--tpmin15px" id="congDownArrow">down arrow</span>
+                </div>
+                <div class="worldClass__west6th" id="MobCongressDistrict">
+                    <!-- <h1 class="worldClassWest6th__heading color--black">congress avenue district</h1>  -->
+                    <ul class="worldClassWest6th__4thUL">
+                        <li class="worldClassWest6th__4thLI">
+                            <img class="worldClassWest6th__4thImage" src="./assets/images/congressAvenue6th (1).jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                            <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                            <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                            <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                            <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                            <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                            <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                  
+                        </li>
+                    </ul>  
+                    <ul class="worldClassWest6th__6thUL">
+                        <li class="worldClassWest6th__6thLI">
+                            <img class="worldClassWest6th__6thImage" src="./assets/images/congressAvenue6th (2).jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                            <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                            <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                            <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                            <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                          
+                        </li>
+                    </ul>
+                </div> 
+                <div class="worldClassOurProperties" id="MobShowEntertainment">
+                    <a href="#MobShowEntertainment" class="welcome1 pdg--lftrgt28px" onclick="MobShowEntertainment()">entertainment district</a>                
+                    <span class="worldClassOurProperties__upBgImage" id="entertainUpArrow">up arrow</span>
+                    <span class="worldClassOurProperties__downBgImage" id="entertainDownArrow">down arrow</span>
+                </div>
+                <div class="worldClass__west6th" id="MobEntertainmentDistrict">
+                    <!-- <h1 class="worldClassWest6th__heading color--black">entertainment district</h1>  -->
+                    <ul class="worldClassWest6th__4thUL">
+                        <li class="worldClassWest6th__4thLI">
+                            <img class="worldClassWest6th__4thImage" src="./assets/images/entertainmentDistrict_1.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                            <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                            <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                            <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                            <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                            <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                            <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                         
+                        </li>
+                    </ul>  
+                    <ul class="worldClassWest6th__6thUL">
+                        <li class="worldClassWest6th__6thLI">
+                            <img class="worldClassWest6th__6thImage" src="./assets/images/3rd&Trinity.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                            <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                            <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                            <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                            <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                        
+                        </li>
+                    </ul>
+                </div> 
+                <div class="worldClassOurProperties" id="MobShowRedRiverMusic">
+                    <a href="#MobShowRedRiverMusic" class="welcome1 pdg--lftrgt28px" onclick="MobShowRedRiverMusic()">red river music district</a>                
+                    <span class="worldClassOurProperties__upBgImage mrg--tpmin15px" id="redUpArrow">up arrow</span>
+                    <span class="worldClassOurProperties__downBgImage mrg--tpmin15px" id="redDownArrow">down arrow</span>
+                </div>
+                <div class="worldClass__west6th" id="MobRedRiverMusicDistrict">
+                    <!-- <h1 class="worldClassWest6th__heading color--black">red river music district</h1>  -->
+                    <ul class="worldClassWest6th__4thUL">
+                        <li class="worldClassWest6th__4thLI">
+                            <img class="worldClassWest6th__4thImage" src="./assets/images/5th&Red1.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                            <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                            <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                            <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                            <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                            <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                            <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                         
+                        </li>
+                    </ul>  
+                    <ul class="worldClassWest6th__6thUL">
+                        <li class="worldClassWest6th__6thLI">
+                            <img class="worldClassWest6th__6thImage" src="./assets/images/Fomo_720_Red_River_1.jpeg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                            <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                            <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                            <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                            <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                         
+                        </li>
+                    </ul>
+                </div> 
+                <div class="worldClassOurProperties" id="MobShowConvention">
+                    <a href="#MobShowConvention" id="conventionLink" class="welcome1" onclick="MobShowConvention()">convention district </a>                
+                    <span class="worldClassOurProperties__upBgImage" id="conventionUpArrow">up arrow</span>
+                    <span class="worldClassOurProperties__downBgImage" id="conventionDownArow">down arrow</span>
+                </div>
+                <div class="worldClass__west6th" id="MobConventionDistrict">
+                    <!-- <h1 class="worldClassWest6th__heading color--black">convention district</h1>  -->
+                    <ul class="worldClassWest6th__4thUL">
+                        <li class="worldClassWest6th__4thLI">
+                            <img class="worldClassWest6th__4thImage" src="./assets/images/conventionDistrict_1.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                            <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                            <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                            <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                            <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                            <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                            <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                                                       
+                        </li>
+                    </ul>  
+                    <ul class="worldClassWest6th__6thUL">
+                        <li class="worldClassWest6th__6thLI">
+                            <img class="worldClassWest6th__6thImage" src="./assets/images/conventionDistrict_2.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                            <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                            <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                            <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                            <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                                                        
+                        </li>
+                    </ul>
+                </div> 
+                <div class="worldClassOurProperties" id="MobShowEastAustin">
+                    <a href="#MobShowEastAustin" class="welcome1" onclick="MobShowEastAustin()">east austin district</a>                
+                    <span class="worldClassOurProperties__upBgImage" id="eastUpArrow">up arrow</span>
+                    <span class="worldClassOurProperties__downBgImage" id="eastDownArrow">down arrow</span>
+                </div>
+                <div class="worldClass__west6th" id="MobEastAustinDistrict">
+                    <!-- <h1 class="worldClassWest6th__heading color--black">east austin district</h1>  -->
+                    <ul class="worldClassWest6th__4thUL">
+                        <li class="worldClassWest6th__4thLI">
+                            <img class="worldClassWest6th__4thImage" src="./assets/images/eastAustinDistrict_1.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                            <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                            <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                            <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                            <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                            <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                            <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                                                        
+                        </li>
+                    </ul>  
+                    <ul class="worldClassWest6th__6thUL">
+                        <li class="worldClassWest6th__6thLI">
+                            <img class="worldClassWest6th__6thImage" src="./assets/images/eastAustinDistrict_4.jpg" alt="4th and Rio"/>
+                        </li>
+                        <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                            <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                            <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                            <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                            <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                            <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                            <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                                                                                                                                       
+                        </li>
+                    </ul>
+                </div>   
+            </div>        
+        </div>
+        <div class="webview__worldClassPropertie">
+            <div class="worldClass__west6th" id="west6thDistrict">  
+                <h1 class="worldClassWest6th__heading color--black">west 6th district</h1> 
+                <ul class="worldClassWest6th__4thUL">
+                    <li class="worldClassWest6th__4thLI">
+                        <img class="worldClassWest6th__4thImage" src="./assets/images/4th&Rio.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                        <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                        <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                        <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                        <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                        <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                        <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>
+                    </li>
+                </ul>  
+                <ul class="worldClassWest6th__6thUL">
+                    <li class="worldClassWest6th__6thLI">
+                        <img class="worldClassWest6th__6thImage" src="./assets/images/6th&Rio.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                        <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                        <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                        <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                        <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                       
+                    </li>
+                </ul>
+            </div>
+            <div class="worldClass__west6th" id="congressDistrict">
+                <h1 class="worldClassWest6th__heading color--black">congress avenue district</h1> 
+                <ul class="worldClassWest6th__4thUL">
+                    <li class="worldClassWest6th__4thLI">
+                        <img class="worldClassWest6th__4thImage" src="./assets/images/congressAvenue6th (1).jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                        <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                        <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                        <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                        <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                        <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                        <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                              
+                    </li>
+                </ul>  
+                <ul class="worldClassWest6th__6thUL">
+                    <li class="worldClassWest6th__6thLI">
+                        <img class="worldClassWest6th__6thImage" src="./assets/images/congressAvenue6th (2).jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                        <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                        <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                        <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                        <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                       
+                    </li>
+                </ul>
+            </div>
+            <div class="worldClass__west6th" id="entertainmentDistrict">
+                <h1 class="worldClassWest6th__heading color--black">entertainment district</h1> 
+                <ul class="worldClassWest6th__4thUL">
+                    <li class="worldClassWest6th__4thLI">
+                        <img class="worldClassWest6th__4thImage" src="./assets/images/entertainmentDistrict_1.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                        <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                        <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                        <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                        <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                        <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                        <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                              
+                    </li>
+                </ul>  
+                <ul class="worldClassWest6th__6thUL">
+                    <li class="worldClassWest6th__6thLI">
+                        <img class="worldClassWest6th__6thImage" src="./assets/images/3rd&Trinity.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                        <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                        <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                        <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                        <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                 
+                    </li>
+                </ul>
+            </div>
+            <div class="worldClass__west6th" id="redRiverMusicDistrict">
+                <h1 class="worldClassWest6th__heading color--black">red river music district</h1> 
+                <ul class="worldClassWest6th__4thUL">
+                    <li class="worldClassWest6th__4thLI">
+                        <img class="worldClassWest6th__4thImage" src="./assets/images/5th&Red1.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                        <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                        <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                        <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                        <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                        <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                        <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                     
+                    </li>
+                </ul>  
+                <ul class="worldClassWest6th__6thUL">
+                    <li class="worldClassWest6th__6thLI">
+                        <img class="worldClassWest6th__6thImage" src="./assets/images/Fomo_720_Red_River_1.jpeg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                        <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                        <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                        <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                        <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                     
+                    </li>
+                </ul>
+            </div>
+            <div class="worldClass__west6th" id="conventionDistrict">
+                <h1 class="worldClassWest6th__heading color--black">convention district</h1> 
+                <ul class="worldClassWest6th__4thUL">
+                    <li class="worldClassWest6th__4thLI">
+                        <img class="worldClassWest6th__4thImage" src="./assets/images/conventionDistrict_1.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                        <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                        <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                        <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                        <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                        <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                        <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                            
+                    </li>
+                </ul>  
+                <ul class="worldClassWest6th__6thUL">
+                    <li class="worldClassWest6th__6thLI">
+                        <img class="worldClassWest6th__6thImage" src="./assets/images/conventionDistrict_2.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                        <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                        <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                        <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                        <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                           
+                    </li>
+                </ul>
+            </div>
+            <div class="worldClass__west6th" id="eastAustinDistrict">
+                <h1 class="worldClassWest6th__heading color--black">east austin district</h1> 
+                <ul class="worldClassWest6th__4thUL">
+                    <li class="worldClassWest6th__4thLI">
+                        <img class="worldClassWest6th__4thImage" src="./assets/images/eastAustinDistrict_1.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__4thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__4thHeding">4th & rio grande - lzr </p>
+                        <p class="worldClassWest6th__4thSubHeading"> venue SF: 15,200 SF</p>
+                        <p class="worldClassWest6th__4thText1">Former home of live music venue La Zona Rosa</p>
+                        <p class="worldClassWest6th__4thHtext">Prefect space to host entertainment events</p>
+                        <p class="worldClassWest6th__4thHtext">Features a fenced-in patio</p>
+                        <p class="worldClassWest6th__4thHtext">Beautifully remodeled interior</p>
+                        <p class="worldClassWest6th__4thHtext mrg--btm25px">Former Host to:Prince, Norah Jones, Gary Clark, Jr.Willie Nelson, Chainsmokers, Lana Del Rey, Spoon, Afrojack, Kaskade,Krewella, DEV, T-Pain, Silver Sun Pickups, Cedric the Entertainer, Josh Abbott Band</p> 
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                                                                                            
+                    </li>
+                </ul>  
+                <ul class="worldClassWest6th__6thUL">
+                    <li class="worldClassWest6th__6thLI">
+                        <img class="worldClassWest6th__6thImage" src="./assets/images/eastAustinDistrict_4.jpg" alt="4th and Rio"/>
+                    </li>
+                    <li class="worldClassWest6th__6thLI pdg--lftrgt width---40per"> 
+                        <p class="worldClassWest6th__6thHeding">6th & rio Grande-rio</p>
+                        <p class="worldClassWest6th__6thSubHeading">Venue SF: 13,292 SF</p>
+                        <p class="worldClassWest6th__6thText1">Three-story entertainment venue with rooftop space and full-size pool</p>
+                        <p class="worldClassWest6th__6thtext">Ideal host for corporate parties and musical premieres</p>
+                        <p class="worldClassWest6th__6thtext mrg--btm25px">Former host to: Snoop Dogg, A$Ap Rocky, Grand Master Flash, G Eazy, 50 Cent, Cee Lo Green, Ludacris, Tiesto, Skrillex</p>
+                        <a href="#contactUs" class="worldClassWest6th__button color--black mrg--tp10px">Contact us</a>                                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="worldClass__contactUs bgColor--2f2f2f" id="contactUs">
+            <h1 class="worldClassContactUs__heading color--white">Contact Us</h1>     
+            <ul class="worldClassContactUs__UL">
+                <li class="worldClassContactUs__LI color--white">
+                    <p class="worldClassContactUs__bgIcons bg--icon1">call us image</p>
+                    <p class="worldClassContactUs__text0">Call Us</p>
+                    <a class="worldClassContactUs__text1" href="#Contact" title="Contact Number">512.808.1111</a>
+                </li>
+                <li class="worldClassContactUs__LI color--white">
+                    <p class="worldClassContactUs__bgIcons bg--icon2">mail us image </p>
+                    <p class="worldClassContactUs__text0">Mail Us</p>
+                    <a class="worldClassContactUs__text1" href="http://www.worldclass247.com/" title="About World class">info@worldclassproperty.com</a>
+                </li>
+                <li class="worldClassContactUs__LI color--white">
+                    <p class="worldClassContactUs__bgIcons bg--icon3">website link</p>
+                    <p class="worldClassContactUs__text0">Corporate Website</p>
+                    <a class="worldClassContactUs__text1" href="http://www.worldclassproperty.com/" title="World class website">www.worldclassproperty.com</a>
+                </li>
+            </ul>  
+            <form class="worldClassContactUs__form" onsubmit="return onSubmit(event)">
+                <div class="worldClassContactUs__inputDiv">
+                    <input class="worldClassContactUs__inputs mrg--lft0px" id="txtName" type="text" placeholder="Name" autocomplete="off" />
+                    <input class="worldClassContactUs__inputs" type="text" id="txtPhoneNumber" placeholder="Phone" autocomplete="off" onkeypress="return isNumber(event)"/>
+                </div>
+                <div class="worldClassContactUs__inputDiv">
+                    <input class="worldClassContactUs__inputs mrg--lft0px" id="txtEmail" type="text" placeholder="Email" autocomplete="off" />
+                    <input class="worldClassContactUs__inputs" id="txtPropertyName" type="text" placeholder="Property Name" autocomplete="off" />
+                </div>
+                <div class="worldClassContactUs__inputDiv">
+                    <textarea class="worldClassContactUs__inputs mrg--lft0px inputMessage--properties" id="txtMessage" placeholder="Message" autocomplete="off" ></textarea> 
+                </div>
+                <p class="errorMessage" id="errName">Please enter the name</p>
+                <p class="errorMessage" id="errPhoneNumber">Please enter the phone number</p>
+                <p class="errorMessage" id="errEmail">Please enter the email</p>
+                <p class="errorMessage" id="errPropertieeName">Please enter the propertie name</p>
+                <p class="errorMessage" id="errMessage">Please enter the message</p>
+                <p class="sucessMessage" id="sucessMessage"></p>
+                <input class="worldClassContactUs__button color--black" onclick=" onSubmit(event)" type="button" value="Submit" />                    
+            </form>      
+        </div>
+        <div class="worldClass__footer bgColor--000000">
+            <a class="worldClassFooter__logo color--white" href="#logo" >Logo</a>
+            <p class="worldClassFooter_text">@2018 World Class Property Company All Rights Reserved | Disclaimer</p>
+        </div>
+        <!-- Js file -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

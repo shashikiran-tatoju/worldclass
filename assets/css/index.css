@@ -1,0 +1,1550 @@
+@font-face{
+    font-family: nunito-bold;
+    src: url(../fonts/Nunito-Bold.ttf),url(../fonts/Nunito-Bold.woff);
+}
+@font-face{
+    font-family: nunito-extraBold;
+    src: url(../fonts/Nunito-ExtraBold.ttf),url(../fonts/Nunito-ExtraBold.woff);
+}
+@font-face{
+    font-family: nunito-black;
+    src: url(../fonts/Nunito-Black.ttf),url(../fonts/Nunito-Black.woff);
+} 
+@font-face{
+    font-family: nunito-extraLight;
+    src: url(../fonts/Nunito-ExtraLight.ttf),url(../fonts/Nunito-ExtraLight.woff);
+} 
+@font-face{
+    font-family: nunito-light;
+    src: url(../fonts/Nunito-Light.ttf),url(../fonts/Nunito-Light.woff);
+} 
+@font-face{
+    font-family: nunito-regular;
+    src: url(../fonts/Nunito-Regular.ttf),url(../fonts/Nunito-Regular.woff);
+} 
+@font-face{
+    font-family: nunito-semiBold;
+    src: url(../fonts/Nunito-SemiBold.ttf),url(../fonts/Nunito-SemiBold.woff);
+} 
+.font{
+    font-family: nunito-regular;
+    font-family: nunito-semiBold;
+    font-family: nunito-light;
+    font-family: nunito-extraLight;
+    font-family: nunito-black;
+    font-family: nunito-extraBold;
+    font-family: nunito-bold;
+} 
+.worldClass__header,.wroldClass__sxsw, .worldClass__BUSGoals,.worldClass__whyUs,.worldClass__ourProperties,.worldClass__contactUs,.worldClass__footer{
+    width: 100%;
+    margin: 0px auto; 
+    overflow: hidden;
+    font-family: notoSans-regular;  
+}
+.WorldClass__logo,.worldClassFooter__logo{
+    background: url(../images/Logo.png) no-repeat;
+    width: 200px; 
+    text-indent: -99999em;
+    float: left;
+    background-size: 150px;
+    padding: 35px;
+    background-position: center;
+    opacity: 0.7;
+}
+.worldClass__hamburger1,.worldClass__hamburger2{ 
+    float: right;
+    text-indent: -99999em;
+    width: 45px;
+    height: 40px; 
+    margin: 25px;
+    display: none;
+}
+.worldClass__hamburger1,.worldClass__hamburger2{
+    background: url(../images/134216-32.png) no-repeat;
+    background-size: 45px;
+}
+.worldClass__hamburger2{
+    background: url(../images/4115230-32.png) no-repeat;
+    background-size: 45px;
+}
+.worldClass__headerUL{
+    float: right;
+    padding: 35px;
+}
+.worldClass__headerLI{
+    display: inline-block;
+    margin: 0px 7px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.worldClass__headerLI:hover{
+    border-bottom: 1px solid #fece24;
+
+}
+.WorldClass__headerLinks{
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 12px; 
+    color: #000000;
+    letter-spacing: 1px;  
+    font-family: nunito-bold;
+} 
+.wroldClass__banner{
+    background: url(../images/Hero2@2x.png) no-repeat;
+    width: 100%; 
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.worldClass__bannerTextDiv{
+    width: 100%;
+    margin: 0px auto;
+    margin: 140px 0 200px 0px; 
+    text-align: center;
+}
+.worldClass__worldText{   
+    font-size: 40px;
+    text-align: center; 
+    line-height: 53px; 
+    width: 60%;
+    margin: 0px auto; 
+    font-family: nunito-light; 
+}
+.worldClass__bannerDate{ 
+    text-align: center;
+    font-size: 39px;
+    padding: 30px 0px; 
+    font-family: nunito-semiBold; 
+} 
+.worldClassSxsw__heading,.worldClassBUSGoals__heading,.worldClassWhyUs__heading,.worldClassPastTenants__heading,.worldClassOurProperties__heading,.worldClassWest6th__heading,.worldClassContactUs__heading{
+    text-align: center;  
+    font-size: 30px;
+    padding: 50px 0px 40px 0px; 
+    letter-spacing: 2px;  
+    font-family: nunito-regular; 
+}
+.worldClassSxsw__southText,.worldClassWhyUs__Text,.worldClassOurProperties__Text{   
+    font-size: 20px;
+    width: 54.5%;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 30px;   
+    font-family: nunito-semiBold;
+}
+.worldClassWhyUs__Text{
+    width: 50%;
+}
+.worldClassSxsw__UL,.worldClassBUSGoals__UL,.worldClassOurProperties__UL{
+    padding: 50px 0px;
+    width: 75%;
+    margin: 0px auto;
+}
+.worldClassBUSGoals__UL{
+    width: 80%;
+}
+.worldClassSxsw__LI,.worldClassWhyUs__LI,.worldClassOurProperties__LI{ 
+    display: inline-block;
+    height: 150px;
+    text-align: center;
+    padding: 10px 0px;
+    vertical-align: middle;
+    width: 15.6%;
+    margin-left: 10px;
+    background-color: #333333; 
+    text-transform: uppercase;
+    border-radius: 0px 25px;
+    opacity: 0.9;
+}
+.worldClassOurProperties__LI{
+    height: 200px;
+    opacity: 0.5;
+    cursor: pointer;
+} 
+.worldClassOurProperties__LI:hover{
+    opacity: 0.9;
+}
+.worldClass__ourProperties .opacity--1px{
+    opacity: 0.9;
+}
+.worldClassWhyUs__LI{
+    width: 48%;
+    text-align: left;
+    text-transform: unset;
+}
+.worldClassSxsw__liValue{
+    padding: 30px 0px 15px 0px;
+    font-size: 30px; 
+    font-family: nunito-semiBold; 
+}
+.worldClassSxsw__liText{ 
+    font-size: 15px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 0px 0px 0px;
+    line-height: 20px;
+    font-family: nunito-regular; 
+}
+.worldClassBUSGoals__Li{
+    display: inline-block;
+    width: 13%;
+    padding-left: 10px;
+    vertical-align: top;
+    text-align: center;
+} 
+.worldClassBUSGoals__text{
+    padding: 10px 0px; 
+    line-height: 25px;
+    height: 50px;
+    width: 163px;
+    font-family: nunito-regular;  
+}
+.worldClassBUSGoals__liValue{
+    font-family: roboto-medium;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.worldClassBUSGoals__buttonsUL{
+    width: 51%;
+    margin: 0px auto;
+    padding: 20px 0px 60px 0px;
+}
+.worldClassBUSGoals__buttonsLi{ 
+    display: inline-block;
+    width: 35%;
+}
+.worldClassWhyUs__UL{
+    width: 60%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.worldClassWhyUs__avlImages,.worldClassWhyUs__rentImages,.worldClassOurProperties__images{
+    float: left;
+    text-indent: -99999em;
+    width: 60px;
+    height: 60px;
+    margin: 45px 30px;
+}
+.worldClassWhyUs__avlImages{
+    background: url(../images/availableProperties.png) no-repeat;
+    background-size: 55px; 
+}
+.worldClassWhyUs__rentImages{
+    background: url(../images/rentableSquareFt.png) no-repeat;
+    background-size: 50px; 
+}
+.worldClassOurProperties__images{
+    float: unset;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+    margin-top: 35px;
+}
+.worldClassWhyUs__liValues{
+    padding: 37px 0px 18px 0px;
+    font-size: 30px;
+    font-family: nunito-regular; 
+}
+.worldClassWhyUs__liText,.worldClassOurProperties__liText{
+    width: 95%;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: nunito-regular;  
+}
+.worldClassOurProperties__liText{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.worldClassPastTenants__imageDiv{
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+.worldClassPastTenants__leftUL, .worldClassPastTenants__rightUL{
+    width: 51%;
+    margin: 0px auto;
+}
+.worldClassPastTenants__rightUL{
+    width: 45%;
+}
+.worldClassPastTenants__leftLi,.worldClassPastTenants__rightLi{
+    display: inline-block;
+    width: 24%; 
+    margin: 20px 0px;
+    vertical-align: middle;
+}
+.worldClassPastTenants__rightLi{
+    width: 33%;
+    margin-left: 180px;
+}
+.worldClassPastTenants__leftImages{
+    width: 100px;
+    height: 20px;
+}
+.worldClassPastTenants__rightImages{
+    width: 200px;
+}
+.worldClassPastTenants__rightImage2{
+    width: 250px;
+    height: 85px;
+}
+.bg--image1{
+    background: url(../images/west6th.png) no-repeat;
+}
+.bg--image2{
+    background: url(../images/congressAvenue.png) no-repeat;
+}
+.bg--image3{
+    background: url(../images/entertainment.png) no-repeat;
+}
+.bg--image4{
+    background: url(../images/redRiverMusic.png) no-repeat;
+}
+.bg--image5{
+    background: url(../images/convention.png) no-repeat;
+}
+.bg--image6{
+    background: url(../images/eastAustin.png) no-repeat;
+}
+.worldClass__west6th{
+    width: 97%;
+    margin: 0px auto;
+    border: 1px solid #d8d8d8;
+    border-radius: 20px 0px;
+    margin-bottom: 60px;
+}
+.worldClassWest6th__heading{
+    text-transform: uppercase;
+}
+.worldClassWest6th__4thUL,.worldClassWest6th__6thUL{
+    width: 85%;
+    margin: 0px auto;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    margin-bottom: 40px; 
+    font-family: nunito-regular; 
+}
+.worldClassWest6th__6thUL{
+     margin-bottom: 60px;
+}
+.worldClassWest6th__4thLI,.worldClassWest6th__6thLI{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding-bottom: 10px; 
+}
+.width---40per{
+    width: 40%;
+}
+.worldClassWest6th__4thImage,.worldClassWest6th__6thImage{
+    width: 100%;
+    height: 350px;
+}
+.worldClassWest6th__4thHeding,.worldClassWest6th__6thHeding{
+    font-size: 28px;
+    opacity: 0.5;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.worldClassWest6th__4thSubHeading,.worldClassWest6th__6thSubHeading{
+    font-size: 25px;
+    opacity: 0.5;
+    line-height: 40px;
+}
+.worldClassWest6th__4thHtext,.worldClassWest6th__6thtext,.worldClassWest6th__6thText1,.worldClassWest6th__4thText1{
+    background: url(../images/bulletPoint.png) no-repeat;
+    padding: 0px 0px 0px 30px;
+    vertical-align: middle;
+    line-height: 25px;
+    background-position-x: left;
+    background-position-y: 10px;
+    font-size: 17px;
+    opacity: 0.5;
+    width: 85%;
+}
+.worldClassWest6th__6thText1,.worldClassWest6th__4thText1{
+    background: unset;
+    padding: 0px;
+}
+.worldClassContactUs__UL,.worldClassContactUs__form{
+    width: 70%;
+    margin: 0px auto;
+    padding: 45px 0px; 
+    font-family: nunito-semiBold; 
+}
+.worldClassContactUs__form{
+    padding: 0px;
+}
+.worldClassContactUs__LI{
+    display: inline-block;
+    width: 33%; 
+    line-height: 25px;
+    vertical-align: middle;
+}
+.worldClassContactUs__bgIcons{
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 10px; 
+    text-indent: -99999em;
+    float: left;
+    padding: 0px 10px;
+}
+.bg--icon1{
+    background: url(../images/callUs.png) no-repeat;
+}
+.bg--icon2{
+    background: url(../images/mailUs.png) no-repeat;
+}
+.bg--icon3{
+    background: url(../images/corporateWebsite.png) no-repeat;
+}
+.worldClassContactUs__text0{
+    font-size: 15px;
+    opacity: 0.5;
+    color: #c5c5c5; 
+}
+.worldClassContactUs__text1{
+    opacity: 0.9;
+    color: #ffffff; 
+    text-decoration: none;
+} 
+.worldClassContactUs__text1:hover{
+    color: #fece24;
+}
+.worldClassContactUs__inputDiv{
+    width: 100%;
+    padding: 10px 0px;
+}
+.worldClassContactUs__inputs{
+    width: 46%;
+    margin-left: 20px;
+    height: 50px;
+    background-color: #3a3a3a;
+    border: 1px solid #515151;
+    border-radius: 5px;
+    color: #ffffff;
+    padding-left: 20px;
+    outline: none;
+    font-size: 20px;
+    font-family: nunito-regular; 
+}
+.worldClassContactUs__inputs::placeholder{
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 18px;
+    font-family: nunito-regular; 
+
+}
+.inputMessage--properties{
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}
+.errorMessage{
+    background: url(../images/Error-512.png) no-repeat; 
+    color: #ff0000;
+    background-size: 20px;
+    padding: 0px 30px;
+    line-height: 27px;
+    display: none;
+}
+.worldClass__yellowButton,.worldClassBUSGoals__yellowButton,.worldClassBUSGoals__grayButton,.worldClassOurProperties__button,.worldClassWest6th__button,.worldClassContactUs__button{
+    font-family: nunito-regular; 
+    width: 239px;
+    margin-left: 38%;
+    margin-top: 5px;
+    padding: 18px 0px;  
+    border-radius: 0px 15px;
+    background-color: #fece24;
+    border: none; 
+    font-size: 17px;  
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    opacity: 0.9;
+}  
+.worldClass__yellowButton{
+    margin-left: 0%;
+}
+.worldClass__yellowButton:hover,.worldClassBUSGoals__yellowButton:hover,.worldClassOurProperties__button:hover,.worldClassWest6th__button:hover,.worldClassContactUs__button:hover{
+     background-color: #333333;
+     color: #ffffff;
+     opacity: 0.9;
+} 
+.worldClassBUSGoals__grayButton:hover,.worldClassOurProperties__LI:hover{
+    background-color: #fece24;
+    color: #000000;
+    opacity: 0.9 !important;
+}
+.worldClassOurProperties__button,.worldClassWest6th__button,.worldClassContactUs__button{
+    background: url(../images/right_arrow.png) no-repeat;
+    width: 200px;
+    background-size: 25px;
+    background-position-y: center;
+    background-position-x: 160px;
+    background-color: #fece24;
+    padding-left: 15px;
+    text-align: left;
+    margin: 55px 0px 30px 660px ;
+    
+} 
+.worldClassWest6th__button{
+    font-size: 23px;
+    padding: 13px 55px 13px 15px;
+    text-decoration: none;  
+}
+.worldClassWest6th__4thLI .mrg--btm25px,.worldClassWest6th__6thLI .mrg--btm25px{
+    margin-bottom: 25px;
+}
+.worldClassContactUs__button{
+    margin: 40px 40%;
+    width: 245px;
+    background-position-y: center;
+    background-position-x: 200px;
+    font-size: 23px;
+    padding: 20px 0px 20px 15px;
+    opacity: 0.8;
+}
+.worldClassFooter__logo{
+    background: url(../images/WorldClassFooterLogo.png) no-repeat;
+    background-size: 200px; 
+}
+.worldClassFooter_text{
+    float: right;
+    color: #ffffff;
+    opacity: 0.5; 
+    padding: 20px;
+    font-size: 15px; 
+}
+#congressDistrict{
+    display: none;
+}
+#entertainmentDistrict{
+    display: none;
+}
+#redRiverMusicDistrict{
+    display: none;
+}
+#conventionDistrict{
+    display: none;
+}
+#eastAustinDistrict{
+    display: none;
+}
+#mobViewShow{
+    display: none;
+}
+.mobileViewWorldClassOurProperties{
+    display: none;
+}
+/*--------------------- Global css started  ----------------------*/
+.bgColor--000000{
+    background-color: #000000;
+}
+.bgColor--2f2f2f{
+    background-color: #2f2f2f;
+}
+.mrg--tp10px{
+    margin: 10px 0px 0px 0px;
+}
+.pdg--lftrgt{
+    padding: 20px 0px 10px 75px;
+}
+.hgt--50px{
+    height: 50px;
+}
+.hgt--20px{
+    height: 20px;
+}
+.hgt--30px{
+    height: 30px;
+}
+.mrg--rgt25px{
+    margin-right: 25px;
+}
+.mrg--lft25px{
+    margin-left: 25px;
+}
+.float--left{
+    float: left;
+}
+.float--right{
+    float: right;
+}
+.pdg--lft0px{
+    padding-left: 0px;
+}
+.mrg--lft0px{
+    margin-left: 0px;
+}
+.bgColor--black{
+    background-color: #383838;
+}
+.bgColor--gray{
+    background-color: #f5f5f5;
+}
+.bgColor--white{
+    background-color: #ffffff;
+}
+.color--white{
+    color: #ffffff;
+}
+.color--black{
+    color: #333333;
+}
+/*-----------------------   Global css end  ------------------------*/
+@media screen and (max-width:1470px){
+    .worldClassSxsw__UL, .worldClassBUSGoals__UL, .worldClassOurProperties__UL { 
+        width: 95%; 
+    }
+    .worldClassSxsw__southText, .worldClassWhyUs__Text, .worldClassOurProperties__Text { 
+        width: 70%; 
+    }
+    .worldClassBUSGoals__buttonsUL {
+        width: 65%; 
+    }
+    .worldClassPastTenants__leftUL {
+        width: 49%; 
+    }
+    .worldClassPastTenants__imageDiv .mrg--lft25px {
+        margin-left: 20px;
+    } 
+    .worldClassPastTenants__rightUL{
+        width: 47%; 
+    }
+    .worldClassPastTenants__rightLi {
+        width: 33%;
+        margin-left: 130px;
+    }
+    .worldClassPastTenants__rightUL .mrg--lft0px {
+        margin-left: 0px;
+    }
+    .worldClassPastTenants__rightImages {
+        width: 175px;
+    }
+    .worldClassPastTenants__rightImage2 {
+        width: 225px;
+        height: 70px;
+    }
+    .worldClassOurProperties__button { 
+        margin: 47px 0px 0px 40%;
+    }
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 23px; 
+        line-height: 15px; 
+    }
+    .worldClassWest6th__4thSubHeading, .worldClassWest6th__6thSubHeading {
+        font-size: 20px;
+        opacity: 0.5;
+        line-height: 30px;
+    }
+    .worldClassWest6th__4thHtext, .worldClassWest6th__6thtext, .worldClassWest6th__6thText1, .worldClassWest6th__4thText1 {
+        font-size: 14px; 
+        width: 95%;
+        line-height: 18px;
+    }
+    .worldClassWest6th__4thUL .pdg--lftrgt {
+        padding: 15px 0px 10px 75px;
+    }
+    .worldClassContactUs__UL, .worldClassContactUs__form {
+        width: 77%; 
+    }
+}
+@media screen and (max-width:1200px){
+    .worldClassBUSGoals__UL {
+        width: 100%;
+    }
+    .worldClassPastTenants__rightUL {
+        width: 42%;
+    }    
+    .worldClassBUSGoals__buttonsUL {
+        width: 66%; 
+    }
+    .worldClass__worldText {  
+        width: 79%; 
+    }
+    .worldClassSxsw__southText, .worldClassWhyUs__Text, .worldClassOurProperties__Text {
+        font-size: 20px;
+        width: 69.8%; 
+    }
+    .worldClassPastTenants__imageDiv .mrg--rgt25px {
+        margin-right: 30px;
+    }
+    .worldClassPastTenants__rightLi {
+        width: 21%;
+    }    
+    .worldClassPastTenants__rightImage2 {
+        width: 200px;
+        height: 60px;
+    }
+    .worldClassPastTenants__rightLi { 
+        width: 45%;
+        margin: 20px 10px; 
+    }
+    .worldClassOurProperties__button, .worldClassContactUs__button {
+         margin-left: 40%;
+    }
+    .worldClassSxsw__UL,.worldClassOurProperties__UL  { 
+        width: 93%; 
+    } 
+    .worldClassWest6th__4thText1 { 
+        width: 90%;
+    }
+    .worldClass__west6th .pdg--lftrgt {
+        padding: 20px 0px 10px 50px;
+    }
+    .worldClassContactUs__UL, .worldClassContactUs__form {
+        width: 75%; 
+    }
+    .worldClassWest6th__4thLI, .worldClassWest6th__6thLI { 
+        width: 54%; 
+    }
+    .worldClassWest6th__4thUL .width---40per,.worldClassWest6th__6thUL .width---40per{
+        width: 40%;
+    }
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 25px; 
+        line-height: 20px;
+    }
+    .worldClassWest6th__4thUL, .worldClassWest6th__6thUL {
+        width: 91%; 
+    }
+    .worldClassWest6th__4thSubHeading, .worldClassWest6th__6thSubHeading {
+        font-size: 20px; 
+        line-height: 35px;
+    }
+    .worldClassWest6th__4thHtext, .worldClassWest6th__6thtext, .worldClassWest6th__6thText1 { 
+        width: 95%;
+        line-height: 23px; 
+        font-size: 15px;
+    }
+    .worldClassContactUs__inputs {
+        width: 45%; 
+    }
+    .worldClassContactUs__inputDiv .inputMessage--properties {
+        width: 93%; 
+    }
+    .worldClassContactUs__inputDiv .worldClassContactUs__button { 
+        width: 245px; 
+    }
+}
+@media screen and (max-width:1193px){
+    .worldClassSxsw__southText, .worldClassWhyUs__Text, .worldClassOurProperties__Text { 
+        width: 80.8%;
+    }
+    .worldClassSxsw__UL, .worldClassOurProperties__UL {
+        width: 95%;
+    }
+    .worldClassSxsw__LI, .worldClassOurProperties__LI { 
+        width: 15.4%; 
+    }
+    .worldClassBUSGoals__UL {
+        width: 96%;
+    }
+    .worldClassBUSGoals__text { 
+        line-height: 20px;
+        height: 35px;
+        width: 120px; 
+        font-size: 13px;
+    }
+    .worldClassBUSGoals__buttonsUL {
+        width: 90%;
+    }
+    .worldClassWhyUs__UL {
+        width: 90%; 
+    }
+    .worldClassWest6th__4thLI, .worldClassWest6th__6thLI {
+        width: 53%;
+    }
+    .worldClass__west6th .pdg--lftrgt {
+        padding: 15px 0px 10px 30px;
+    }
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .worldClassWest6th__4thSubHeading, .worldClassWest6th__6thSubHeading {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .worldClassWest6th__button {
+        font-size: 19px;
+        padding: 7px 0px 7px 15px;
+    }
+    .worldClassWest6th__4thHtext, .worldClassWest6th__6thtext, .worldClassWest6th__6thText1 {
+        width: 95%;
+        line-height: 19px;
+        font-size: 13px;
+    }
+    .worldClassContactUs__UL, .worldClassContactUs__form {
+        width: 88%;
+    }
+    .worldClassWhyUs__liText, .worldClassOurProperties__liText { 
+        line-height: 25px;
+        font-size: 15px; 
+    }
+}
+@media screen and (max-width:992px){
+    .worldClass__bannerTextDiv {
+        width: 100%; 
+        margin: 20% 0%;
+    }
+    .worldClass__worldText {
+        font-size: 35px; 
+        line-height: 50px;
+        width: 80%; 
+    }
+    .worldClassSxsw__southText, .worldClassWhyUs__Text, .worldClassOurProperties__Text { 
+        width: 84.6%; 
+    } 
+    .worldClassSxsw__UL { 
+        width: 95%; 
+    }
+    .worldClassSxsw__UL .mrg--lft0px {
+        margin-left: 0px;
+    }
+    .worldClassBUSGoals__UL {
+        width: 95%;
+    }
+    .worldClassBUSGoals__Li { 
+        width: 12%;
+        padding-left: 17px; 
+    }
+    .worldClassBUSGoals__text {  
+        width: 120px;
+        font-size: 14px;
+        height: 40px;
+    }
+    .worldClassBUSGoals__buttonsUL {
+        width: 80%;
+    }
+    .worldClassBUSGoals__buttonsLi { 
+        width: 40%;
+    }
+    .worldClassWhyUs__UL {
+        width: 80%; 
+    }
+    .worldClassPastTenants__leftUL, .worldClassPastTenants__rightUL {
+        width: 45%; 
+    }
+    .worldClassPastTenants__leftLi{ 
+        width: 24%;
+        margin: 20px 0px; 
+    }
+    .worldClassPastTenants__rightLi{
+        width: 44%;
+    }
+    .worldClassPastTenants__leftImages {
+        width: 85px; 
+    }
+    .worldClassPastTenants__rightImage2 {
+        width: 180px;
+        height: 50px;
+    }
+    .worldClassOurProperties__UL {
+        width: 95%;  
+    }
+    .worldClassSxsw__LI { 
+        width: 15.2%; 
+    }
+    .worldClassOurProperties__LI { 
+        width: 15.4%; 
+    }
+     .worldClassWest6th__4thText1 { 
+        font-size: 16px; 
+        width: 95%;
+    }
+    .worldClassWest6th__4thUL .width---40per, .worldClassWest6th__6thUL .width---40per {
+        width: 42%;
+    }
+    .worldClass__west6th .pdg--lftrgt {
+        padding: 20px 0px 10px 25px;
+    }
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .worldClassWest6th__4thSubHeading, .worldClassWest6th__6thSubHeading {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .worldClassWest6th__4thHtext, .worldClassWest6th__6thtext, .worldClassWest6th__6thText1 { 
+        line-height: 18px;
+        font-size: 12px;
+    }
+    .worldClassWest6th__button {
+        font-size: 20px;
+        padding: 8px 0px 8px 15px;
+    }
+    .worldClassContactUs__UL, .worldClassContactUs__form {
+        width: 90%; 
+    }
+    .worldClassContactUs__button { 
+        background-position-x: 180px;
+        font-size: 21px;
+        padding: 15px 0px 15px 15px; 
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:988px){
+    .worldClass__headerUL { 
+        padding: 35px 15px 25px 0px;
+    }
+    .worldClass__headerLI { 
+        margin: 0px 5px;
+    }
+    .WorldClass__logo{ 
+        width: 150px; 
+    }
+    .WorldClass__headerLinks { 
+        font-size: 10px; 
+    }
+    .worldClass__worldText {
+        font-size: 30px; 
+        width: 75%; 
+    }
+    .worldClass__bannerDate { 
+        padding: 20px 0px; 
+        font-size: 35px;
+    }
+    .worldClassSxsw__LI {
+        width: 14.97%;
+    }
+    .worldClassSxsw__heading, .worldClassBUSGoals__heading, .worldClassWhyUs__heading, .worldClassPastTenants__heading, .worldClassOurProperties__heading, .worldClassWest6th__heading, .worldClassContactUs__heading { 
+        padding: 40px 0px 25px 0px; 
+    }
+    .worldClassSxsw__southText, .worldClassWhyUs__Text, .worldClassOurProperties__Text {
+        width: 84.6%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .worldClassSxsw__liValue { 
+        font-size: 25px; 
+    }
+    .worldClassSxsw__liText { 
+        font-size: 13px; 
+        line-height: 19px; 
+        padding: 5px 0px 0px 0px;
+    }
+    .worldClassBUSGoals__Li {
+        width: 11.6%;
+        padding-left: 20px;
+    }
+    .worldClassBUSGoals__UL .pdg--lft0px {
+        padding-left: 0px;
+    }
+    .worldClassBUSGoals__text {
+        width: 87px;
+        font-size: 10px;
+        height: 30px;
+        line-height: 17px;
+    }
+    .worldClassBUSGoals__liValue {  
+        font-size: 16px;
+    }
+    .worldClassOurProperties__LI {
+        width: 15.1%;
+    }
+    .worldClassWest6th__4thImage, .worldClassWest6th__6thImage { 
+        height: 260px;
+    }
+    .worldClassWest6th__4thText1 {
+        font-size: 13px; 
+    }
+    .worldClassContactUs__UL, .worldClassContactUs__form {
+        width: 95%;
+    }
+    .worldClassContactUs__LI { 
+        width: 31%; 
+    }
+    .worldClassContactUs__text1 { 
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:850px){
+    .worldClassSxsw__LI {
+        width: 15%;
+    }
+    .worldClassBUSGoals__Li {
+        width: 11.4%; 
+    }
+    .worldClassBUSGoals__text {
+        width: 75px; 
+    }
+    .worldClassPastTenants__leftImages {
+        width: 75px;
+    }
+    .worldClassPastTenants__rightImages,.worldClassPastTenants__rightImage2 {
+        width: 150px;
+    }
+    .worldClassOurProperties__LI {
+        width: 15.0%;
+    }
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 19px; 
+    }
+    .worldClassWest6th__4thImage, .worldClassWest6th__6thImage {
+        height: 290px;
+    }
+}
+@media screen and (max-width:768px){
+    .WorldClass__logo, .worldClassFooter__logo {  
+        background-size: 100px;
+        padding: 35px 0px 30px 0px; 
+    }
+    .worldClass__headerUL { 
+        padding: 35px 0px 35px 0px;
+    }
+    .worldClass__headerLI { 
+        margin: 0px 4px;
+    }
+    .worldClass__worldText { 
+        font-size: 31px; 
+        line-height: 45px;
+    }
+    .worldClass__bannerTextDiv { 
+        margin: 20% 0%;
+    }
+    .worldClass__bannerDate { 
+        font-size: 33px;
+        padding: 25px 0px;
+    } 
+    .worldClassSxsw__southText, .worldClassWhyUs__Text, .worldClassOurProperties__Text {
+        width: 93.3%;
+    }
+    .worldClassSxsw__LI, .worldClassWhyUs__LI, .worldClassOurProperties__LI { 
+        margin-left: 5px; 
+    }
+    .worldClassBUSGoals__UL {
+        width: 100%;
+    }
+    .worldClassBUSGoals__Li {
+        width: 12%;
+        padding-left: 0px;
+    }
+    .worldClassBUSGoals__Li {
+        width: 10%;
+        padding-left: 24px;
+    }
+    .worldClassBUSGoals__text {
+        width: 87px;
+        font-size: 10px;
+        height: 30px;
+        line-height: 15px; 
+    }
+    .worldClassBUSGoals__liValue { 
+        padding-top: 0px;
+        font-size: 16px;
+    }
+    .worldClassBUSGoals__buttonsUL {
+        width: 88%; 
+        padding: 0px 0px 50px 0px;
+    }
+    .worldClassBUSGoals__grayButton,.worldClassBUSGoals__yellowButton {
+        width: 200px; 
+        margin-top: 5px;
+        padding: 15px 0px; 
+        font-size: 14px; 
+    }
+    .worldClassSxsw__heading, .worldClassBUSGoals__heading, .worldClassWhyUs__heading, .worldClassPastTenants__heading, .worldClassOurProperties__heading, .worldClassWest6th__heading, .worldClassContactUs__heading {
+        padding: 40px 0px 30px 0px; 
+    }
+    .worldClassPastTenants__imageDiv .mrg--lft25px {
+        margin-left: 10px;
+    }
+    .worldClassPastTenants__leftImages {
+        width: 65px;
+    }
+    .worldClassPastTenants__imageDiv .mrg--rgt25px {
+        margin-right: 15px;
+    }
+    .worldClassPastTenants__leftLi { 
+        margin: 12px 0px;
+    }
+    .worldClassPastTenants__rightLi {
+        width: 49%;
+        margin: 15px 0px;
+    }
+    .worldClassPastTenants__rightImage2 {
+        width: 155px;
+        height: 40px;
+    }
+    .worldClassPastTenants__rightImages {
+        width: 130px;
+    }
+    .worldClassOurProperties__button { 
+        width: 205px; 
+        margin-top: 35px ;
+        margin-left: 35%;
+    }
+    .worldClassOurProperties__images { 
+        background-size: 60px;
+        margin-top: 30px;
+    }
+    .worldClassWhyUs__liText, .worldClassOurProperties__liText { 
+        line-height: 22px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .worldClassOurProperties__LI {
+        height: 180px; 
+    }
+    .worldClassSxsw__UL, .worldClassBUSGoals__UL, .worldClassOurProperties__UL {
+        padding: 25px 0px 40px 0px; 
+    }
+    .worldClassWest6th__4thUL, .worldClassWest6th__6thUL {
+        width: 95%;
+    }
+    .worldClassWest6th__4thLI, .worldClassWest6th__6thLI {
+        width: 50%;
+    }
+    .worldClassWest6th__4thImage, .worldClassWest6th__6thImage { 
+        height: 260px;
+    }
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 18px; 
+    }
+    .worldClassWest6th__4thSubHeading, .worldClassWest6th__6thSubHeading {
+        font-size: 14px; 
+    }
+    .worldClassWest6th__4thHtext, .worldClassWest6th__6thtext, .worldClassWest6th__6thText1 { 
+        font-size: 11px;
+    } 
+    .worldClassContactUs__UL, .worldClassContactUs__form {
+        width: 90%;
+        padding: 30px 0px;
+    }
+    .worldClassContactUs__LI { 
+        width: 32%; 
+        line-height: 22px;
+    }
+    .worldClassContactUs__text0 {
+        font-size: 13px; 
+    }
+    .worldClassContactUs__text1 { 
+        font-size: 11px;
+    }
+    .worldClassContactUs__bgIcons { 
+        padding: 0px 6px;
+    }
+    .worldClassContactUs__inputs {
+        width: 44%;
+    }
+    .worldClassContactUs__button {
+        width: 220px;
+        margin-top: 35px;
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:767px){
+    .worldClass__headerLI {
+        margin: 0px 0px;
+    }
+    .WorldClass__headerLinks {
+        font-size: 9px;
+    }
+    .worldClassSxsw__liValue {
+        font-size: 18px; 
+    }
+    .worldClassSxsw__LI  { 
+        height: 125px; 
+    }
+    .worldClassSxsw__liText {
+        font-size: 10px; 
+        padding: 0px 0px 0px 0px;
+    }
+    .worldClassBUSGoals__UL {
+        width: 90%;
+    }
+    .worldClassBUSGoals__Li {
+        width: 21%; 
+        padding: 0px 0px 20px 16px;
+    }
+    .worldClassBUSGoals__buttonsUL {
+        width: 100%; 
+    }
+    .worldClassWhyUs__UL {
+        width: 90%;
+    }
+    .worldClassWhyUs__avlImages { 
+        margin: 35px 14px;
+    }
+    .worldClassWhyUs__liValues {
+        padding: 30px 0px 5px 0px;
+        font-size: 22px; 
+    }
+    .worldClassWhyUs__liText  {
+        line-height: 16px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .worldClassPastTenants__leftUL, .worldClassPastTenants__rightUL {
+        width: 89%;
+        margin: 0px auto; 
+        float: right;
+        margin-bottom: 20px;
+    }
+    .worldClassPastTenants__imageDiv .mrg--rgt25px {
+        margin-right: 0px;
+    }
+    .worldClassPastTenants__imageDiv .mrg--lft25px {
+        margin-left: 0px;
+    }
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 14px;
+    }
+    .worldClassWest6th__4thImage, .worldClassWest6th__6thImage {
+        height: 320px;
+    }
+    .worldClassContactUs__text0 {
+        font-size: 12px;
+    }
+    .worldClassContactUs__UL, .worldClassContactUs__form {
+        width: 95%;
+        padding: 30px 0px;
+    }
+    .worldClassContactUs__text1 {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:695px){
+    .worldClassContactUs__inputs {
+        width: 43%;
+    }
+    .worldClassFooter__logo {
+        width: 100px;
+    }
+    .worldClassFooter_text { 
+        font-size: 14px;
+    }
+    .worldClassContactUs__button { 
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:576px){
+    .worldClass__worldText {
+        font-size: 30px;
+        width: 90%;
+    }
+    .worldClass__headerUL{
+        overflow: hidden;
+        width: 80%;
+        margin: 0px auto;
+        float: none; 
+        position: absolute;
+        z-index: 2;
+        background-color: #ffffff; 
+        padding-bottom: 25px;
+        border: 1px solid #000;
+        left: 5.5%;
+        top: 75px;
+        padding: 0px 25px 0px 25px;
+        display: none;
+    }
+    .worldClass__headerLI {
+        font-size: 12px;
+        width: 100%;
+        float: none;
+        text-align: center; 
+        margin: 0 auto; 
+        border-bottom: 1px solid black;
+        padding: 20px 0px 10px 0px;
+        font-family: roboto-medium;
+    }
+    .WorldClass__headerLinks {
+        font-size: 15px;  
+    }
+    .worldClass__hamburger1 { 
+        display: block;
+    }
+    .WorldClass__logo { 
+        background-size: 150px;
+        padding: 35px 15px; 
+    }
+    .worldClass__bannerTextDiv {
+        width: 95%;
+        margin: 0px auto;
+        margin-top: 100px;
+        margin-bottom: 89px;
+    }
+    .worldClassSxsw__UL, .worldClassBUSGoals__UL, .worldClassOurProperties__UL {
+        width: 95%;
+        margin: 10px 0px 10px 15px;
+    }
+    .worldClassOurProperties__UL{
+        width: 90%;
+        margin: 0px auto; 
+        padding: 0px; 
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .worldClassSxsw__UL .mrg--lft0px {
+        margin-left: 0px;
+    }
+    .worldClassSxsw__LI, .worldClassOurProperties__LI {
+        width: 30%;
+        margin: 4px;
+    }
+    .worldClassOurProperties__LI{
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        height: 0px;
+        border-radius: 10px;
+        padding: 30px 0px 55px 0px;
+    }
+    .worldClassBUSGoals__Li {
+        width: 30%; 
+        padding: 10px 5px;
+    }
+    .worldClassBUSGoals__text {
+        width: 114px;
+        font-size: 10px;
+        height: 36px;
+        line-height: 18px;
+    }
+    .worldClassBUSGoals__buttonsUL {
+        width: 90%; 
+    }
+    .worldClassBUSGoals__buttonsUL {
+        width: 100%;
+    }
+    .worldClassBUSGoals__buttonsLi {
+        width: 100%; 
+        margin: 0px auto;
+    }
+    .worldClassBUSGoals__grayButton, .worldClassBUSGoals__yellowButton {  
+        padding: 20px 0px;
+        font-size: 20px; 
+        width: 90%;
+        margin: 10px 25px;
+    }
+    .worldClassWhyUs__UL {
+        width: 98%;
+    }
+    .worldClassWhyUs__LI {
+        width: 48%; 
+    }
+    .worldClassWhyUs__avlImages, .worldClassWhyUs__rentImages { 
+        margin: 45px 20px;
+    }
+    .worldClassWhyUs__liValues { 
+        font-size: 20px;
+    }
+    .worldClassWhyUs__liText{
+        line-height: 22px;
+        font-size: 15px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .worldClassOurProperties__liText {
+        line-height: 22px;
+        font-size: 18px;
+        margin-top: 35px;
+        width: 100%; 
+    }
+    .worldClassPastTenants__leftUL, .worldClassPastTenants__rightUL {
+        width: 90%;
+        padding: 0px 20px;
+        float: left;
+    }
+    .worldClassPastTenants__rightUL{
+        padding: 0px 15px;
+    }
+    .worldClassPastTenants__imageDiv .mrg--lft25px {
+        margin-left: 0px;
+    }
+    .worldClassPastTenants__rightImages { 
+        width: 65%;
+    }
+    .worldClassPastTenants__rightImage2 { 
+        height: 40px;
+        width: 73%;
+    }  
+    .worldClassOurProperties__button{ 
+        width: 90%;
+        text-align: center;  
+        margin: 10px 25px;
+        background-position-x: 90%; 
+        font-size: 25px;
+    }
+    .worldClassOurProperties__images{
+         display: none;
+    } 
+    .worldClassWest6th__4thLI, .worldClassWest6th__6thLI {
+        width: 90%;
+        margin: 20px 0px 0px 20px;
+    }
+    .worldClassWest6th__4thUL .width---40per, .worldClassWest6th__6thUL .width---40per {
+        width: 90%;
+    }
+    .worldClass__west6th .pdg--lftrgt {
+        padding: 0px 25px 60px 25px; 
+        margin: 0px;
+    } 
+    .worldClassWest6th__4thHeding, .worldClassWest6th__6thHeding {
+        font-size: 22px;
+        width: 100%; 
+        line-height: 30px;
+    }
+    .worldClassWest6th__4thLI .mrg--btm25px, .worldClassWest6th__6thLI .mrg--btm25px {
+        margin-bottom: 40px;
+    }
+    .worldClassWest6th__4thSubHeading, .worldClassWest6th__6thSubHeading {
+        font-size: 20px;
+        width: 100%;  
+        line-height: 40px;
+    }
+    .worldClassWest6th__4thHtext, .worldClassWest6th__6thtext, .worldClassWest6th__6thText1 {
+        font-size: 14px;
+        line-height: 25px;
+        width: 85%;
+    }
+    .worldClassWest6th__button {
+        margin: 12px 0px 0px 0px;
+        width: 100%; 
+        padding: 20px 80px;
+        text-align: center;
+        background-position: 230px;
+    }
+    .worldClassContactUs__UL {
+        width: 95%;
+        padding: 30px 0px;
+    }
+    .worldClassContactUs__LI {
+        width: 100%;
+        line-height: 22px;
+        margin: 0px 0px 20px 0px ;
+    }
+    .worldClassContactUs__bgIcons {
+        padding: 0px 15px 0px 37px;
+        background-size: 50px;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .worldClassContactUs__text0 {
+        font-size: 20px;
+    }
+    .worldClassContactUs__text1 {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .worldClassContactUs__form {
+        width: 90%;
+        padding: 0px 0px;
+    }
+    .worldClassContactUs__inputDiv { 
+        padding: 0px 0px;
+    }
+    .worldClassContactUs__inputs {
+        width: 95%;
+        margin: 10px 0px;
+    }
+    .worldClassContactUs__inputDiv .inputMessage--properties {
+        width: 90%;
+    }
+    .worldClassContactUs__button { 
+        margin-left: 1%;
+        width: 96%;
+        text-align: center;
+        background-position: 315px;
+    }
+    .worldClassFooter__logo{
+        width: 100%;
+        background-position: center;
+        background-size: 200px;
+    }
+    .worldClassFooter_text {
+    float: unset; 
+    padding: 0px 20px 20px 35px;
+    font-size: 15px; 
+    }
+    #webViewShow{
+        display: none;
+    }
+    #mobViewShow{
+        display: block;
+    }
+    .worldClass__west6th{
+        display: none;
+        border: none;
+    }
+    .worldClassOurProperties__links{  
+        text-align: center;  
+        text-transform: uppercase;
+        opacity: 0.9;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 25px; 
+        padding: 28px 40px;
+    }
+    .worldClassOurProperties__links:hover{
+        background-color: #fece24;
+        color: #000000;
+        opacity: 0.9 !important;
+    }
+    .worldClassOurProperties{
+      
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+        background-color: #333333;
+        margin-bottom: 20px;
+        padding: 25px; 
+        border-radius: 10px; 
+    }
+    .welcome1{  
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 25px;
+        letter-spacing: 1px;
+        padding: 23px 50px;
+    }
+    .worldClassOurProperties__upBgImage{
+        background: url(../images/upArrow.png) no-repeat;
+        background-size: 20px; 
+        width: 20px;
+        height: 20px;
+        text-indent: -99999em;
+        float: right;
+        margin-top: 7px;
+        display: none;
+    }
+    .worldClassOurProperties__downBgImage{
+        background: url(../images/downArrow.png) no-repeat;
+        background-size: 20px; 
+        width: 20px;
+        height: 20px;
+        text-indent: -99999em;
+        float: right;
+        margin-top: 7px; 
+    }
+    .pdg--lftrgt28px{
+        padding: 23px 28px;
+    } 
+    .welcome1:hover{
+        color: #fece24;
+    }
+    .mobileViewWorldClassOurProperties{
+        display: block;
+        margin-top: 25px;
+    }
+    .webview__worldClassPropertie{
+        display: none;
+    }
+} 
+@media screen and (max-width:544px){
+    .worldClass__headerUL { 
+        left: 5%; 
+    }
+}
+@media screen and (max-width:442px){
+   #MobShowCongressAvenue .mrg--tpmin15px{
+        margin-top: -15px;
+    }
+    .worldClass__headerUL { 
+        left: 4%; 
+    }
+}
+@media screen and (max-width:424px){
+    #MobShowRedRiverMusic .mrg--tpmin15px{
+        margin-top: -15px;
+    }
+}
